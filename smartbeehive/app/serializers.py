@@ -11,3 +11,4 @@ class ModelPredictionSerializer(serializers.ModelSerializer):
     class Meta:
         model = ModelPrediction
         fields = '__all__'
+        
